@@ -1,0 +1,23 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    width: 700px;
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+}
+.row{
+    border: 2px solid;
+    padding: 119px;
+    margin-top: 100px;
+    background-color: azure;
+}
+.heading{
+    text-align: center;
+    color: teal ;
+}
+.subhead{
+    text-align: center;
+    color: black;
+}

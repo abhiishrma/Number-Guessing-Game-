@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <title>Number Guess Game</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div>
+                <h1 class="heading">Number Guess Game</h1>
+                <p class="subhead">Can You Guess The Number Between (1 - 100) In 10 Attempts  </p>
+            </div>
+            <div class="result">
+                <label for="guessField">Enter Your Guess : </label><input type="text" id="guessField" class="guessField">
+                <input type="submit" value="Submit Guess" class="guessSubmit">
+                <p class="guesses"></p>
+                <p class="lastResult"></p>
+                <p class="lowOrHigh"></p>
+            </div>
+        </div>
+    </div>
+    <script src="numguess.js"></script>
+</body>
+</html>
